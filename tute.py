@@ -4,7 +4,6 @@ def simular_comportamiento(temperatura, estacion, usuario_tipo):
     """
     if usuario_tipo != "premium":
         return "Funcionalidad exclusiva para usuarios premium"
-
     if temperatura == "fría":
         return "El pato está nadando para entrar en calor."
     elif temperatura == "templada":
@@ -16,3 +15,4 @@ def simular_comportamiento(temperatura, estacion, usuario_tipo):
             return "El pato vuela bajo."
 
     return "Condiciones desconocidas"
+

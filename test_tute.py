@@ -1,5 +1,5 @@
 import pytest
-from main import simular_comportamiento
+from tute import simular_comportamiento
 
 def test_swim_in_cold_water():
     resultado = simular_comportamiento("fría", "invierno", "premium")
