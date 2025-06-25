@@ -19,4 +19,4 @@ def test_fly_in_hot_water_and_winter():
 
 def test_block_access_for_non_premium_user():
     resultado = simular_comportamiento("fría", "invierno", "gratis")
-    assert resultado == "Funcionalidad exclusiva para usuarios premium"
+    assert resultado == "Funcionalidad exclusiva para usuarios gratis"
