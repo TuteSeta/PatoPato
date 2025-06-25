@@ -1,5 +1,3 @@
-# rami.py
-
 # ==== Catálogo de especies con múltiples atributos ====
 especies = [
     {"nombre": "Pato criollo", "habitat": "laguna", "vuelo": "corto"},
