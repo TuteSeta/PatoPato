@@ -1,4 +1,3 @@
-# test_du15.py
 import pytest
 from main import filtrar_especies_por_habitat
 
